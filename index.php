@@ -65,7 +65,6 @@ $mas = $memcache->get("$date");
 }
 
 
-$xml = simplexml_load_file("http://img.ignio.com/r/export/utf/xml/daily/com.xml");
 foreach($mas as $key => $val){
 
 	echo mb_strtoupper("<h2 id='",'utf-8').strtolower("$key").mb_strtoupper("'>ГОРОСКОП ДЛЯ $name[$key] на $date</h2>",'utf-8');
